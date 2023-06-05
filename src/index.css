@@ -791,15 +791,12 @@ select {
   .book__selected {
     flex-direction: column;
   }
-  .book__selected--figure {
-    width: 100%;
-    justify-content: flex-start;
-  }
+
+  .book__selected--figure,
   .book__selected--description {
     width: 100%;
   }
 }
-
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
@@ -813,15 +810,13 @@ select {
 
   .highlight {
     width: 100%;
-  }
-
-  .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
 
   .cart__book--img {
     display: none;
   }
+
   .cart__book--info {
     padding-left: 0;
   }
